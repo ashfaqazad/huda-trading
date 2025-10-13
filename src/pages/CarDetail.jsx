@@ -450,7 +450,7 @@ export default function CarDetail() {
                 <img
                   src={car.images[currentImage]}
                   alt={car.title[currentLanguage]}
-                  className="w-full h-100 object-cover rounded-xl shadow-lg transition-all duration-500"
+                  className="w-full h-auto object-contain rounded-xl shadow-lg transition-all duration-500"
                 />
               ) : (
                 <video
